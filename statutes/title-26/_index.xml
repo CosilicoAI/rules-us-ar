@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akn:akomaNtoso xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <akn:act name="title">
+    <akn:meta>
+      <akn:identification source="#cosilico">
+        <akn:FRBRWork>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-26" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-26" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#ar-legislature" />
+          <akn:FRBRcountry value="us-ar" />
+          <akn:FRBRnumber value="26" />
+          <akn:FRBRname value="aca" />
+        </akn:FRBRWork>
+        <akn:FRBRExpression>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-26/eng@2025-12-31" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-26/eng@2025-12-31" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+          <akn:FRBRlanguage language="eng" />
+        </akn:FRBRExpression>
+        <akn:FRBRManifestation>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-26/eng@2025-12-31/main.xml" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-26/eng@2025-12-31/main.xml" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+        </akn:FRBRManifestation>
+      </akn:identification>
+      <akn:references source="#cosilico">
+        <akn:TLCOrganization eId="ar-legislature" href="/ontology/organization/us-ar/general-assembly" showAs="Arkansas General Assembly" />
+        <akn:TLCOrganization eId="cosilico" href="/ontology/organization/cosilico" showAs="Cosilico" />
+      </akn:references>
+    </akn:meta>
+    <akn:body>
+      <akn:hcontainer name="title" eId="title_26">
+        <akn:num>Title 26</akn:num>
+        <akn:heading>Taxation</akn:heading>
+        <akn:chapter eId="chp_26_18">
+          <akn:num>Chapter 18</akn:num>
+          <akn:heading>Administration</akn:heading>
+          <akn:componentRef src="./chapter-18/" showAs="Chapter 18 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_26">
+          <akn:num>Chapter 26</akn:num>
+          <akn:heading>Arkansas Tax Procedure Act</akn:heading>
+          <akn:componentRef src="./chapter-26/" showAs="Chapter 26 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_51">
+          <akn:num>Chapter 51</akn:num>
+          <akn:heading>Income Taxes</akn:heading>
+          <akn:componentRef src="./chapter-51/" showAs="Chapter 51 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_52">
+          <akn:num>Chapter 52</akn:num>
+          <akn:heading>Gross Receipts Tax (Sales and Use Tax)</akn:heading>
+          <akn:componentRef src="./chapter-52/" showAs="Chapter 52 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_53">
+          <akn:num>Chapter 53</akn:num>
+          <akn:heading>Compensating (Use) Tax</akn:heading>
+          <akn:componentRef src="./chapter-53/" showAs="Chapter 53 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_54">
+          <akn:num>Chapter 54</akn:num>
+          <akn:heading>Soft Drink Tax</akn:heading>
+          <akn:componentRef src="./chapter-54/" showAs="Chapter 54 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_55">
+          <akn:num>Chapter 55</akn:num>
+          <akn:heading>Cigarette Tax</akn:heading>
+          <akn:componentRef src="./chapter-55/" showAs="Chapter 55 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_56">
+          <akn:num>Chapter 56</akn:num>
+          <akn:heading>Tobacco Products Tax</akn:heading>
+          <akn:componentRef src="./chapter-56/" showAs="Chapter 56 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_57">
+          <akn:num>Chapter 57</akn:num>
+          <akn:heading>Motor Fuel and Special Motor Fuel Tax</akn:heading>
+          <akn:componentRef src="./chapter-57/" showAs="Chapter 57 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_58">
+          <akn:num>Chapter 58</akn:num>
+          <akn:heading>Distilled Spirits Tax</akn:heading>
+          <akn:componentRef src="./chapter-58/" showAs="Chapter 58 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_59">
+          <akn:num>Chapter 59</akn:num>
+          <akn:heading>Beer Tax</akn:heading>
+          <akn:componentRef src="./chapter-59/" showAs="Chapter 59 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_60">
+          <akn:num>Chapter 60</akn:num>
+          <akn:heading>Mixed Drink Tax</akn:heading>
+          <akn:componentRef src="./chapter-60/" showAs="Chapter 60 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_61">
+          <akn:num>Chapter 61</akn:num>
+          <akn:heading>Estate Tax</akn:heading>
+          <akn:componentRef src="./chapter-61/" showAs="Chapter 61 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_62">
+          <akn:num>Chapter 62</akn:num>
+          <akn:heading>Inheritance and Estate Tax</akn:heading>
+          <akn:componentRef src="./chapter-62/" showAs="Chapter 62 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_63">
+          <akn:num>Chapter 63</akn:num>
+          <akn:heading>Special Taxes</akn:heading>
+          <akn:componentRef src="./chapter-63/" showAs="Chapter 63 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_64">
+          <akn:num>Chapter 64</akn:num>
+          <akn:heading>Property Taxes</akn:heading>
+          <akn:componentRef src="./chapter-64/" showAs="Chapter 64 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_65">
+          <akn:num>Chapter 65</akn:num>
+          <akn:heading>Miscellaneous Taxes</akn:heading>
+          <akn:componentRef src="./chapter-65/" showAs="Chapter 65 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_70">
+          <akn:num>Chapter 70</akn:num>
+          <akn:heading>Property Tax Relief</akn:heading>
+          <akn:componentRef src="./chapter-70/" showAs="Chapter 70 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_72">
+          <akn:num>Chapter 72</akn:num>
+          <akn:heading>Property Valuation and Assessment</akn:heading>
+          <akn:componentRef src="./chapter-72/" showAs="Chapter 72 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_74">
+          <akn:num>Chapter 74</akn:num>
+          <akn:heading>County Tax Collectors</akn:heading>
+          <akn:componentRef src="./chapter-74/" showAs="Chapter 74 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_75">
+          <akn:num>Chapter 75</akn:num>
+          <akn:heading>Real Property Assessment Coordination</akn:heading>
+          <akn:componentRef src="./chapter-75/" showAs="Chapter 75 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_76">
+          <akn:num>Chapter 76</akn:num>
+          <akn:heading>Personal Property Tax</akn:heading>
+          <akn:componentRef src="./chapter-76/" showAs="Chapter 76 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_80">
+          <akn:num>Chapter 80</akn:num>
+          <akn:heading>Corporate Franchise Tax</akn:heading>
+          <akn:componentRef src="./chapter-80/" showAs="Chapter 80 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_81">
+          <akn:num>Chapter 81</akn:num>
+          <akn:heading>Premium Taxes on Insurance Companies</akn:heading>
+          <akn:componentRef src="./chapter-81/" showAs="Chapter 81 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_26_82">
+          <akn:num>Chapter 82</akn:num>
+          <akn:heading>Banking and Financial Institution Taxes</akn:heading>
+          <akn:componentRef src="./chapter-82/" showAs="Chapter 82 sections" />
+        </akn:chapter>
+      </akn:hcontainer>
+    </akn:body>
+  </akn:act>
+</akn:akomaNtoso>
