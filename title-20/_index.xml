@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akn:akomaNtoso xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <akn:act name="title">
+    <akn:meta>
+      <akn:identification source="#cosilico">
+        <akn:FRBRWork>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#ar-legislature" />
+          <akn:FRBRcountry value="us-ar" />
+          <akn:FRBRnumber value="20" />
+          <akn:FRBRname value="aca" />
+        </akn:FRBRWork>
+        <akn:FRBRExpression>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20/eng@2025-12-31" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20/eng@2025-12-31" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+          <akn:FRBRlanguage language="eng" />
+        </akn:FRBRExpression>
+        <akn:FRBRManifestation>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20/eng@2025-12-31/main.xml" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20/eng@2025-12-31/main.xml" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+        </akn:FRBRManifestation>
+      </akn:identification>
+      <akn:references source="#cosilico">
+        <akn:TLCOrganization eId="ar-legislature" href="/ontology/organization/us-ar/general-assembly" showAs="Arkansas General Assembly" />
+        <akn:TLCOrganization eId="cosilico" href="/ontology/organization/cosilico" showAs="Cosilico" />
+      </akn:references>
+    </akn:meta>
+    <akn:body>
+      <akn:hcontainer name="title" eId="title_20">
+        <akn:num>Title 20</akn:num>
+        <akn:heading>Public Health and Welfare</akn:heading>
+        <akn:chapter eId="chp_20_76">
+          <akn:num>Chapter 76</akn:num>
+          <akn:heading>Department of Human Services</akn:heading>
+          <akn:componentRef src="./chapter-76/" showAs="Chapter 76 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_77">
+          <akn:num>Chapter 77</akn:num>
+          <akn:heading>General Provisions</akn:heading>
+          <akn:componentRef src="./chapter-77/" showAs="Chapter 77 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_78">
+          <akn:num>Chapter 78</akn:num>
+          <akn:heading>Public Assistance and Social Services</akn:heading>
+          <akn:componentRef src="./chapter-78/" showAs="Chapter 78 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_81">
+          <akn:num>Chapter 81</akn:num>
+          <akn:heading>Medical Assistance Programs</akn:heading>
+          <akn:componentRef src="./chapter-81/" showAs="Chapter 81 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_82">
+          <akn:num>Chapter 82</akn:num>
+          <akn:heading>Programs for the Aged, Blind, and Disabled</akn:heading>
+          <akn:componentRef src="./chapter-82/" showAs="Chapter 82 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_83">
+          <akn:num>Chapter 83</akn:num>
+          <akn:heading>Child Welfare Services</akn:heading>
+          <akn:componentRef src="./chapter-83/" showAs="Chapter 83 sections" />
+        </akn:chapter>
+        <akn:chapter eId="chp_20_86">
+          <akn:num>Chapter 86</akn:num>
+          <akn:heading>Food Stamp Program / SNAP</akn:heading>
+          <akn:componentRef src="./chapter-86/" showAs="Chapter 86 sections" />
+        </akn:chapter>
+      </akn:hcontainer>
+    </akn:body>
+  </akn:act>
+</akn:akomaNtoso>

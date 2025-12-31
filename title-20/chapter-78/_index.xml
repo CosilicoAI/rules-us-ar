@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akn:akomaNtoso xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <akn:act name="chapter">
+    <akn:meta>
+      <akn:identification source="#cosilico">
+        <akn:FRBRWork>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20/chapter-78" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20/chapter-78" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#ar-legislature" />
+          <akn:FRBRcountry value="us-ar" />
+        </akn:FRBRWork>
+        <akn:FRBRExpression>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20/chapter-78/eng@2025-12-31" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20/chapter-78/eng@2025-12-31" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+          <akn:FRBRlanguage language="eng" />
+        </akn:FRBRExpression>
+        <akn:FRBRManifestation>
+          <akn:FRBRthis value="/akn/us-ar/act/aca/title-20/chapter-78/eng@2025-12-31/main.xml" />
+          <akn:FRBRuri value="/akn/us-ar/act/aca/title-20/chapter-78/eng@2025-12-31/main.xml" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+        </akn:FRBRManifestation>
+      </akn:identification>
+    </akn:meta>
+    <akn:body>
+      <akn:chapter eId="chp_20_78">
+        <akn:num>Chapter 78</akn:num>
+        <akn:heading>Public Assistance and Social Services</akn:heading>
+        <akn:intro>
+          <akn:p>This is a placeholder for Arkansas Code Title 20, Chapter 78 - Public Assistance and Social Services. Section content to be added from official sources.</akn:p>
+        </akn:intro>
+      </akn:chapter>
+    </akn:body>
+  </akn:act>
+</akn:akomaNtoso>
